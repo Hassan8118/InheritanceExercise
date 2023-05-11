@@ -14,7 +14,7 @@ namespace Inheritance
             isAlive = true;
             LegCount = 4;
             canBreathe = true;
-            Age = 0;
+            Age = 6;
         }
 
         public bool IsColdBlooded { get; set; } 

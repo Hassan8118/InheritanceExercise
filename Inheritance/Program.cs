@@ -28,13 +28,14 @@ namespace Inheritance
              *  
              * Creatively display the class member values 
              */
-
+            
             var myBird = new Bird();
             myBird.WingColor = "green";
             myBird.CanFly = true;
             myBird.WillMigrate = true;
             myBird.BeakLength = 2.5;
 
+           
             var lizard = new Reptile()
             {
                 IsColdBlooded = true,
@@ -42,16 +43,15 @@ namespace Inheritance
                 Habitat = "swamp",
                 CanGrowTail = true
             };
-
+            var myAnimals = new Animal[] { myBird, lizard };
 
             /*Create an object of your Reptile class
              *  give values to your members using the object of your Reptile class
              *  
              * Creatively display the class member values 
              */
-          
 
-            var myAnimals = new Animal[] { new Animal() };
+          
 
             foreach (var animal in myAnimals)
             {

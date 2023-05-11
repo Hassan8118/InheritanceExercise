@@ -13,7 +13,7 @@ namespace Inheritance
             isAlive = true;
             LegCount = 2;
             canBreathe = true;
-            Age = 0;
+            Age = 7;
         }
 
         public string WingColor { get; set; }
